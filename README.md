@@ -1,7 +1,11 @@
 # Mamíferos, Unidades de Conservação e Rodovias em Minas Gerais (PostGIS)
 
 Trabalho de **CSI803 – Banco de Dados Geográficos** (UFOP, Prof. Bruno R. Monteiro) — *Coleta e Documentação de uma Base de Dados Geográficos*.
-Autor: Lucas Salgado Vieira (matrícula 22.2.8083).
+Autores:
+- Lucas Salgado Vieira (22.2.8083)
+- Edson Paschoal Neto (22.1.8003)
+- Gustavo Guimarães de Oliveira Dias (22.2.8020)
+- Gabriel Soares Avelino (22.1.8114)
 
 Base PostGIS com **3 tabelas espaciais** (+ 1 associativa e 3 de domínio):
 
