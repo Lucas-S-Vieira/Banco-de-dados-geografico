@@ -38,7 +38,7 @@ erDiagram
 | Rodovias | IDE-Sisema, camada `ide_0401_mg_rodovias_lin`: malha do SNV/DNIT de nov/2018, dados atualizados em 12/2021 (ref. CIDE 2021). [Metadado](https://idesisema.meioambiente.mg.gov.br/geonetwork/srv/api/records/ba9062d9-15d1-4373-9638-2ef8ce885f74) (revisão de 29/06/2022) | 23/11/2026 | Metadado: *"O acesso ao dado é livre"*. Não há licença nomeada; redistribuído com atribuição à fonte |
 | Ocorrências de mamíferos | GBIF.org, download `0012809-261118162104854`, DOI [10.15468/dl.k5vaf5](https://doi.org/10.15468/dl.k5vaf5) | 23/11/2026 | CC BY 4.0 (licença do download); registros individuais em CC0 1.0 ou CC BY 4.0 |
 
-**Como citar a base:** *Avelino, G. S.; Dias, G. G. O.; Paschoal Neto, E.; Vieira, L. S. (2026). Mamíferos, Unidades de Conservação e Rodovias em Minas Gerais (PostGIS). Trabalho de CSI803, UFOP.*
+*Avelino, G. S.; Dias, G. G. O.; Paschoal Neto, E.; Vieira, L. S. (2026). Mamíferos, Unidades de Conservação e Rodovias em Minas Gerais (PostGIS). Trabalho de CSI803, UFOP.*
 
 **Fontes dos dados:**
 - IDE-Sisema/SEMAD-MG (IEF, ICMBio, DNIT), camadas de UCs estaduais, UCs federais e rodovias, acessadas em 23/11/2026.
