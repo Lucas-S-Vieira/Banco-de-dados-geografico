@@ -37,7 +37,11 @@ erDiagram
 
 ## Requisitos
 
-- PostgreSQL 16 e PostGIS 3.4 (versões testadas: PostgreSQL 16.15, PostGIS 3.4.2, GEOS 3.12.1, PROJ 9.4.0). Funciona a partir do PostGIS 3.1 (colunas geradas exigem PostgreSQL ≥ 12).
+- PostgreSQL 16+ e PostGIS 3.4+. Importação testada em banco limpo em duas instalações:
+  - PostgreSQL 16.15 + PostGIS 3.4.2 (GEOS 3.12.1, PROJ 9.4.0), Linux;
+  - PostgreSQL 19.0 + PostGIS 3.7.0 (GEOS 3.15.0, PROJ 9.8.1), Windows 11.
+  
+  Deve funcionar a partir do PostGIS 3.1 (colunas geradas exigem PostgreSQL ≥ 12).
 - Para refazer o tratamento (opcional): Python 3.10+ e `pip install -r scripts/requirements.txt`.
 
 ## Importação (banco limpo)

@@ -1,128 +1,161 @@
--- =============================================================================
--- Mamíferos, Unidades de Conservação e Rodovias de Minas Gerais
--- schema.sql: extensão, tabelas, restrições e índices
--- SRID: 4674 (SIRGAS 2000, coordenadas geográficas). Ver DICIONARIO.md.
--- Execute em um banco vazio:  psql -d mamiferos_mg -f sql/schema.sql
--- =============================================================================
+-- =====================================================================
+-- Base: Mamíferos, Unidades de Conservação e Rodovias em Minas Gerais
+-- Disciplina CSI803 - Banco de Dados Geográficos (UFOP)
+-- SRID adotado em todas as geometrias: EPSG:4674 (SIRGAS 2000)
+-- Execução: psql -d <banco> -v ON_ERROR_STOP=1 -f sql/schema.sql
+-- =====================================================================
 
 CREATE EXTENSION IF NOT EXISTS postgis;
 
-SET client_encoding TO 'UTF8';
-
-DROP TABLE IF EXISTS rodovia_uc, ocorrencia, rodovia, unidade_conservacao,
-                     taxon, tipo_superficie, categoria_uc CASCADE;
-
--- -----------------------------------------------------------------------------
+-- ---------------------------------------------------------------------
 -- Tabelas de domínio (sem geometria)
--- -----------------------------------------------------------------------------
-
+-- ---------------------------------------------------------------------
 CREATE TABLE categoria_uc (
-    sigla   varchar(5)  PRIMARY KEY,
-    nome    varchar(60) NOT NULL UNIQUE,
-    grupo   varchar(20) NOT NULL
-            CHECK (grupo IN ('PROTECAO_INTEGRAL', 'USO_SUSTENTAVEL'))
+    cod_categoria varchar(5)  PRIMARY KEY,
+    nome          varchar(60) NOT NULL,
+    grupo         varchar(20) NOT NULL
+                  CHECK (grupo IN ('PROTECAO_INTEGRAL', 'USO_SUSTENTAVEL')),
+    cat_iucn      varchar(3)  NOT NULL
+                  CHECK (cat_iucn IN ('Ia', 'II', 'III', 'IV', 'V', 'VI'))
 );
-COMMENT ON TABLE categoria_uc IS 'Categorias de unidade de conservação do SNUC (Lei 9.985/2000) presentes na base.';
+COMMENT ON TABLE categoria_uc IS
+    'Categorias de unidade de conservação (SNUC) e correspondência com a IUCN.';
 
-CREATE TABLE tipo_superficie (
-    sigla     char(3)     PRIMARY KEY,
-    descricao varchar(80) NOT NULL UNIQUE
+CREATE TABLE superficie_rodovia (
+    cod_superficie varchar(3)  PRIMARY KEY,
+    descricao      varchar(60) NOT NULL
 );
-COMMENT ON TABLE tipo_superficie IS 'Situação física/superfície de trechos rodoviários (siglas do SNV/DNIT).';
+COMMENT ON TABLE superficie_rodovia IS
+    'Códigos de situação/superfície do trecho rodoviário (convenção SNV/DNIT).';
+
+INSERT INTO categoria_uc (cod_categoria, nome, grupo, cat_iucn) VALUES
+    ('ESEC',  'Estação Ecológica',                      'PROTECAO_INTEGRAL', 'Ia'),
+    ('REBIO', 'Reserva Biológica',                      'PROTECAO_INTEGRAL', 'Ia'),
+    ('PAR',   'Parque (Nacional ou Estadual)',          'PROTECAO_INTEGRAL', 'II'),
+    ('MONA',  'Monumento Natural',                      'PROTECAO_INTEGRAL', 'III'),
+    ('RVS',   'Refúgio de Vida Silvestre',              'PROTECAO_INTEGRAL', 'IV'),
+    ('RPPN',  'Reserva Particular do Patrimônio Natural','USO_SUSTENTAVEL',  'IV'),
+    ('APA',   'Área de Proteção Ambiental',             'USO_SUSTENTAVEL',   'V'),
+    ('FLO',   'Floresta (Nacional ou Estadual)',        'USO_SUSTENTAVEL',   'VI'),
+    ('RDS',   'Reserva de Desenvolvimento Sustentável', 'USO_SUSTENTAVEL',   'VI');
+
+INSERT INTO superficie_rodovia (cod_superficie, descricao) VALUES
+    ('PAV', 'Pavimentada'),
+    ('DUP', 'Duplicada'),
+    ('IMP', 'Implantada (sem pavimento)'),
+    ('LEN', 'Leito natural'),
+    ('PLA', 'Planejada'),
+    ('EOP', 'Em obras de pavimentação'),
+    ('EOD', 'Em obras de duplicação');
 
 CREATE TABLE taxon (
     taxon_key        varchar(12)  PRIMARY KEY,
-    nome_cientifico  varchar(150) NOT NULL,
-    nivel_taxonomico varchar(12)  NOT NULL
-                     CHECK (nivel_taxonomico IN ('CLASSE', 'ORDEM', 'FAMILIA', 'GENERO',
-                                                 'ESPECIE', 'SUBESPECIE', 'SEM_NIVEL')),
-    ordem            varchar(40),
-    familia          varchar(40),
-    genero           varchar(40),
-    especie          varchar(80)
+    nivel_taxonomico varchar(10)  NOT NULL
+                     CHECK (nivel_taxonomico IN ('CLASS', 'ORDER', 'FAMILY', 'GENUS',
+                                                 'SPECIES', 'SUBSPECIES', 'UNRANKED')),
+    nome_cientifico  varchar(120) NOT NULL,
+    especie          varchar(60),
+    genero           varchar(60),
+    familia          varchar(60),
+    ordem            varchar(60)
 );
-COMMENT ON TABLE taxon IS 'Táxons (Backbone Taxonomy do GBIF) referenciados pelas ocorrências.';
+COMMENT ON TABLE taxon IS
+    'Táxons de mamíferos referenciados pelas ocorrências (chave do GBIF Backbone).';
 
--- -----------------------------------------------------------------------------
+-- ---------------------------------------------------------------------
 -- Tabelas espaciais
--- -----------------------------------------------------------------------------
-
+-- ---------------------------------------------------------------------
 CREATE TABLE unidade_conservacao (
     id_uc           integer      PRIMARY KEY,
-    cod_origem      varchar(20)  NOT NULL UNIQUE,
     nome            varchar(150) NOT NULL,
+    cod_categoria   varchar(5)   NOT NULL REFERENCES categoria_uc (cod_categoria),
     esfera          varchar(8)   NOT NULL CHECK (esfera IN ('ESTADUAL', 'FEDERAL')),
-    sigla_categoria varchar(5)   NOT NULL REFERENCES categoria_uc (sigla),
-    ato_legal       varchar(300),
-    municipios      varchar(400),
+    id_origem       integer      NOT NULL,
+    cd_cnuc         varchar(15)  UNIQUE,
+    ato_legal       varchar(200) NOT NULL,
     bioma           varchar(60),
-    area_ha         numeric(12,2) NOT NULL CHECK (area_ha > 0),
+    municipios      text         NOT NULL,
+    area_oficial_ha numeric(12,2) CHECK (area_oficial_ha >= 0),
+    area_ha         numeric(12,2) GENERATED ALWAYS AS
+                    (round((ST_Area(geom::geography) / 10000)::numeric, 2)) STORED,
     geom            geometry(MultiPolygon, 4674) NOT NULL,
+    UNIQUE (esfera, id_origem),
     CONSTRAINT uc_geom_valida CHECK (ST_IsValid(geom) AND NOT ST_IsEmpty(geom))
 );
-COMMENT ON TABLE unidade_conservacao IS 'Unidades de conservação estaduais (IEF) e federais (ICMBio) em Minas Gerais.';
+COMMENT ON TABLE unidade_conservacao IS
+    'Unidades de conservação estaduais e federais de Minas Gerais (IDE-Sisema).';
 
 CREATE TABLE rodovia (
-    id_trecho        integer      PRIMARY KEY,
-    id_cide          integer      NOT NULL UNIQUE,
-    numero_rodovia   char(3)      CHECK (numero_rodovia ~ '^[0-9]{3}$'),
-    codigo_snv       varchar(12),
-    jurisdicao       varchar(8)   CHECK (jurisdicao IN ('ESTADUAL', 'FEDERAL')),
-    tipo_trecho      varchar(14)  CHECK (tipo_trecho IN ('EIXO_PRINCIPAL', 'ACESSO')),
-    sigla_superficie char(3)      REFERENCES tipo_superficie (sigla),
-    local_inicio     varchar(120),
-    local_fim        varchar(120),
-    km_inicial       numeric(8,3) CHECK (km_inicial >= 0),
-    km_final         numeric(8,3) CHECK (km_final >= 0),
-    extensao_km      numeric(8,3) CHECK (extensao_km >= 0),
-    comprimento_km   numeric(10,3) NOT NULL CHECK (comprimento_km >= 0),
-    geom             geometry(MultiLineString, 4674) NOT NULL,
+    id_trecho          integer      PRIMARY KEY,
+    id_cide            integer      NOT NULL,
+    codigo_rod         varchar(10)  NOT NULL,
+    codigo_snv         varchar(15)  NOT NULL,
+    tipo_trecho        varchar(20)  NOT NULL CHECK (tipo_trecho IN ('Eixo Principal', 'Acesso')),
+    uf                 char(2)      NOT NULL,
+    local_inicio       varchar(120) NOT NULL,
+    local_fim          varchar(120),
+    km_inicio          numeric(8,3) NOT NULL CHECK (km_inicio >= 0),
+    km_fim             numeric(8,3) NOT NULL CHECK (km_fim >= 0),
+    extensao_km        numeric(8,3) NOT NULL CHECK (extensao_km >= 0),
+    extensao_geom_km   numeric(10,3) GENERATED ALWAYS AS
+                       (round((ST_Length(geom::geography) / 1000)::numeric, 3)) STORED,
+    cod_superficie     varchar(3)   NOT NULL REFERENCES superficie_rodovia (cod_superficie),
+    jurisdicao         varchar(8)   NOT NULL CHECK (jurisdicao IN ('ESTADUAL', 'FEDERAL')),
+    dt_inicio_vigencia date         NOT NULL,
+    dt_fim_vigencia    date         NOT NULL,
+    referencia         varchar(20)  NOT NULL,
+    geom               geometry(MultiLineString, 4674) NOT NULL,
     CONSTRAINT rodovia_geom_valida CHECK (ST_IsValid(geom) AND NOT ST_IsEmpty(geom))
 );
-COMMENT ON TABLE rodovia IS 'Trechos de rodovias federais e estaduais em Minas Gerais (SRE/DER-MG, base CIDE 2021).';
+COMMENT ON TABLE rodovia IS
+    'Trechos de rodovias federais e estaduais de Minas Gerais (IDE-Sisema, ref. CIDE 2021).';
 
-CREATE TABLE ocorrencia (
-    id_ocorrencia      bigint       PRIMARY KEY,
-    taxon_key          varchar(12)  NOT NULL REFERENCES taxon (taxon_key),
-    data_evento        date,
-    ano                smallint     CHECK (ano BETWEEN 1800 AND 2100),
-    mes                smallint     CHECK (mes BETWEEN 1 AND 12),
-    base_registro      varchar(20)  NOT NULL
-                       CHECK (base_registro IN ('OBSERVACAO_HUMANA', 'ESPECIME_PRESERVADO',
-                                                'AMOSTRA_MATERIAL', 'CITACAO_MATERIAL',
-                                                'OBSERVACAO_MAQUINA')),
-    codigo_instituicao varchar(80),
-    num_individuos     integer      CHECK (num_individuos >= 0),
-    incerteza_coord_m  numeric(9,1) CHECK (incerteza_coord_m >= 0),
-    licenca            varchar(10)  NOT NULL CHECK (licenca IN ('CC-BY-4.0', 'CC0-1.0')),
-    id_dataset         uuid         NOT NULL,
-    id_uc              integer      REFERENCES unidade_conservacao (id_uc),
-    geom               geometry(Point, 4674) NOT NULL,
-    CONSTRAINT ocorrencia_geom_valida CHECK (ST_IsValid(geom) AND NOT ST_IsEmpty(geom)),
-    CONSTRAINT ocorrencia_data_coerente CHECK (data_evento IS NULL OR ano IS NULL
-                                               OR EXTRACT(YEAR FROM data_evento) = ano)
+CREATE TABLE ocorrencia_mamifero (
+    gbif_id        bigint       PRIMARY KEY,
+    taxon_key      varchar(12)  NOT NULL REFERENCES taxon (taxon_key),
+    dataset_key    uuid         NOT NULL,
+    instituicao    varchar(64),
+    colecao        varchar(64),
+    tipo_registro  varchar(20)  NOT NULL
+                   CHECK (tipo_registro IN ('HUMAN_OBSERVATION', 'PRESERVED_SPECIMEN',
+                                            'MATERIAL_SAMPLE', 'MATERIAL_CITATION',
+                                            'MACHINE_OBSERVATION')),
+    data_evento    date,
+    ano            smallint     CHECK (ano BETWEEN 1700 AND 2100),
+    n_individuos   integer      CHECK (n_individuos > 0),
+    incerteza_m    numeric(8,1) CHECK (incerteza_m >= 0),
+    localidade     text,
+    licenca        varchar(10)  NOT NULL CHECK (licenca IN ('CC0_1_0', 'CC_BY_4_0')),
+    ocorrencia_ref text,
+    id_uc          integer      REFERENCES unidade_conservacao (id_uc) ON DELETE SET NULL,
+    geom           geometry(Point, 4674) NOT NULL,
+    CONSTRAINT ocorrencia_geom_valida CHECK (ST_IsValid(geom) AND NOT ST_IsEmpty(geom))
 );
-COMMENT ON TABLE ocorrencia IS 'Registros de ocorrência de mamíferos em Minas Gerais (download GBIF 0012809-261118162104854).';
+COMMENT ON TABLE ocorrencia_mamifero IS
+    'Registros de ocorrência de mamíferos em Minas Gerais (GBIF).';
+COMMENT ON COLUMN ocorrencia_mamifero.id_uc IS
+    'Derivado em sql/pos_carga.sql: UC que contém o ponto (ST_Within); NULL se fora de UC.';
 
--- Associação N:N materializada a partir de ST_Intersects(rodovia.geom, unidade_conservacao.geom)
+-- Tabela associativa (relação espacial materializada): rodovia x UC
 CREATE TABLE rodovia_uc (
-    id_trecho      integer       NOT NULL REFERENCES rodovia (id_trecho) ON DELETE CASCADE,
-    id_uc          integer       NOT NULL REFERENCES unidade_conservacao (id_uc) ON DELETE CASCADE,
-    comprimento_km numeric(10,3) NOT NULL CHECK (comprimento_km >= 0),
+    id_trecho   integer      NOT NULL REFERENCES rodovia (id_trecho) ON DELETE CASCADE,
+    id_uc       integer      NOT NULL REFERENCES unidade_conservacao (id_uc) ON DELETE CASCADE,
+    extensao_km numeric(8,3) NOT NULL CHECK (extensao_km > 0),
     PRIMARY KEY (id_trecho, id_uc)
 );
-COMMENT ON TABLE rodovia_uc IS 'Trechos rodoviários que intersectam unidades de conservação e a extensão (km) dentro de cada UC.';
+COMMENT ON TABLE rodovia_uc IS
+    'Trechos de rodovia que cruzam UCs, com a extensão (km) do trecho dentro da UC. Derivada em sql/pos_carga.sql.';
 
--- -----------------------------------------------------------------------------
--- Índices
--- -----------------------------------------------------------------------------
+-- ---------------------------------------------------------------------
+-- Índices espaciais (GiST) e de apoio
+-- ---------------------------------------------------------------------
+CREATE INDEX idx_uc_geom         ON unidade_conservacao  USING GIST (geom);
+CREATE INDEX idx_rodovia_geom    ON rodovia              USING GIST (geom);
+CREATE INDEX idx_ocorrencia_geom ON ocorrencia_mamifero  USING GIST (geom);
 
-CREATE INDEX unidade_conservacao_geom_gix ON unidade_conservacao USING gist (geom);
-CREATE INDEX rodovia_geom_gix             ON rodovia             USING gist (geom);
-CREATE INDEX ocorrencia_geom_gix          ON ocorrencia          USING gist (geom);
-
-CREATE INDEX unidade_conservacao_categoria_idx ON unidade_conservacao (sigla_categoria);
-CREATE INDEX rodovia_superficie_idx            ON rodovia (sigla_superficie);
-CREATE INDEX ocorrencia_taxon_idx              ON ocorrencia (taxon_key);
-CREATE INDEX ocorrencia_uc_idx                 ON ocorrencia (id_uc);
-CREATE INDEX rodovia_uc_uc_idx                 ON rodovia_uc (id_uc);
+CREATE INDEX idx_uc_categoria        ON unidade_conservacao (cod_categoria);
+CREATE INDEX idx_rodovia_codigo      ON rodovia (codigo_rod);
+CREATE INDEX idx_rodovia_superficie  ON rodovia (cod_superficie);
+CREATE INDEX idx_ocorrencia_taxon    ON ocorrencia_mamifero (taxon_key);
+CREATE INDEX idx_ocorrencia_uc       ON ocorrencia_mamifero (id_uc);
+CREATE INDEX idx_rodovia_uc_uc       ON rodovia_uc (id_uc);

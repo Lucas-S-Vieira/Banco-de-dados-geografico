@@ -1,2 +1,6 @@
 # credenciais locais (nao versionar)
 .env
+
+# dados de trabalho locais (os brutos versionados estão em dados/brutos)
+dadosMg/
+Atividade/
