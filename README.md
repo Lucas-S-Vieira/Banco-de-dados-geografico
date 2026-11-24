@@ -33,11 +33,16 @@ erDiagram
 
 | Dado | Fonte | Coleta | Licença |
 |---|---|---|---|
-| UCs estaduais e federais | IDE-Sisema (SEMAD-MG): https://idesisema.meioambiente.mg.gov.br, camadas `ide_2010_mg_unidades_conservacao_estaduais_pol` e `..._federais_pol` | 23/11/2026 | **A confirmar** nos metadados da camada |
-| Rodovias | IDE-Sisema, camada `ide_0401_mg_rodovias_lin` (ref. CIDE 2021) | 23/11/2026 | **A confirmar** nos metadados da camada |
-| Ocorrências de mamíferos | GBIF.org, download `0012809-261118162104854` | 18/11/2026 | CC0 1.0 / CC BY 4.0 (por registro) |
+| UCs estaduais | IDE-Sisema (SEMAD-MG), camada `ide_2010_mg_unidades_conservacao_estaduais_pol`, responsável IEF-MG. [Metadado](https://idesisema.meioambiente.mg.gov.br/geonetwork/srv/api/records/f4b56fd6-5d60-40bc-be8a-d25949525b85) (revisão de 19/11/2026) | 23/11/2026 | **CC BY 4.0**: o metadado permite cópia, redistribuição e produtos derivados, com crédito ao IEF/IDE-Sisema e indicação das alterações feitas |
+| UCs federais | IDE-Sisema, camada `ide_2010_mg_unidades_conservacao_federais_pol`, responsável ICMBio. [Metadado](https://idesisema.meioambiente.mg.gov.br/geonetwork/srv/api/records/48a7ad10-baee-4dff-aebd-fd275346a7ba) (revisão de 27/04/2026) | 23/11/2026 | Metadado: *"O acesso ao dado é livre"*. Não há licença nomeada; redistribuído com atribuição à fonte |
+| Rodovias | IDE-Sisema, camada `ide_0401_mg_rodovias_lin`: malha do SNV/DNIT de nov/2018, dados atualizados em 12/2021 (ref. CIDE 2021). [Metadado](https://idesisema.meioambiente.mg.gov.br/geonetwork/srv/api/records/ba9062d9-15d1-4373-9638-2ef8ce885f74) (revisão de 29/06/2022) | 23/11/2026 | Metadado: *"O acesso ao dado é livre"*. Não há licença nomeada; redistribuído com atribuição à fonte |
+| Ocorrências de mamíferos | GBIF.org, download `0012809-261118162104854`, DOI [10.15468/dl.k5vaf5](https://doi.org/10.15468/dl.k5vaf5) | 23/11/2026 | CC BY 4.0 (licença do download); registros individuais em CC0 1.0 ou CC BY 4.0 |
 
-**Como citar a base:** *Vieira, L. S. (2026). Mamíferos, Unidades de Conservação e Rodovias em Minas Gerais (PostGIS). Trabalho de CSI803, UFOP.* Dados: IDE-Sisema/SEMAD-MG; GBIF.org (18 Nov 2026) GBIF Occurrence Download https://www.gbif.org/occurrence/download/0012809-261118162104854 (**DOI a preencher** a partir da página do download).
+**Como citar a base:** *Vieira, L. S.; Paschoal Neto, E.; Dias, G. G. O.; Avelino, G. S. (2026). Mamíferos, Unidades de Conservação e Rodovias em Minas Gerais (PostGIS). Trabalho de CSI803, UFOP.*
+
+**Fontes dos dados:**
+- IDE-Sisema/SEMAD-MG (IEF, ICMBio, DNIT), camadas de UCs estaduais, UCs federais e rodovias, acessadas em 23/11/2026.
+- GBIF.org (23 November 2026) GBIF Occurrence Download https://doi.org/10.15468/dl.k5vaf5
 
 ## Requisitos
 

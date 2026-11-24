@@ -26,5 +26,9 @@ Licenças deste repositório
    - Ocorrências de mamíferos: GBIF.org. Registros sob CC0 1.0 e CC BY 4.0
      (https://creativecommons.org/licenses/by/4.0/). Atribuição: citar o download GBIF
      0012809-261118162104854 e os conjuntos de dados de origem (campo dataset_key).
-   - UCs e rodovias: IDE-Sisema / SEMAD-MG. Condições de uso a confirmar nos metadados de
-     cada camada (ver README.md).
+   - UCs estaduais: IDE-Sisema / IEF-MG, sob CC BY 4.0
+     (https://creativecommons.org/licenses/by/4.0/deed.pt-br), conforme o metadado
+     f4b56fd6-5d60-40bc-be8a-d25949525b85. Os dados foram modificados (ver DICIONARIO.md).
+   - UCs federais (ICMBio) e rodovias (DNIT/SNV): IDE-Sisema / SEMAD-MG. Os metadados
+     48a7ad10-baee-4dff-aebd-fd275346a7ba e ba9062d9-15d1-4373-9638-2ef8ce885f74 declaram
+     "O acesso ao dado é livre", sem licença nomeada. Redistribuídos com atribuição à fonte.
