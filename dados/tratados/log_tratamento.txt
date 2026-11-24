@@ -1,0 +1,28 @@
+Tratamento dos dados brutos -> dados/tratados
+
+== Unidades de conservação (IDE-Sisema: estaduais + federais)
+  estaduais lidas: 95
+  federais lidas: 95
+  campos de texto recodificados de cp1252: 0
+  -> categoria_uc.csv: 9 registros, 0.0 MB
+  -> unidade_conservacao.csv: 190 registros, 4.2 MB
+
+== Rodovias (IDE-Sisema / DER-MG, referência CIDE 2021)
+  trechos lidos: 3444
+  trechos com geometria nula descartados: 0
+  trechos sem nenhum atributo descritivo (mantidos, atributos NULL): 210
+  campos numéricos estourados no DBF (-> NULL): 630
+  campos de texto recodificados de cp1252: 0
+  -> tipo_superficie.csv: 7 registros, 0.0 MB
+  -> rodovia_1.csv: 1722 registros, 28.1 MB
+  -> rodovia_2.csv: 1722 registros, 28.1 MB
+
+== Ocorrências de mamíferos (GBIF)
+  registros lidos: 13655
+  descartados (incerteza de coordenada > 10000 m): 324
+  descartados (coordenada fora do envelope de MG): 17
+  descartados (registro fóssil): 2
+  ocorrências mantidas: 13312
+  táxons distintos: 414; taxonKey com atributos divergentes entre registros (mantida a 1ª ocorrência): 2 ['5X7NT', '6XJW7']
+  -> taxon.csv: 414 registros, 0.0 MB
+  -> ocorrencia.csv: 13312 registros, 2.0 MB

@@ -1,0 +1,415 @@
+taxon_key,nivel_taxonomico,nome_cientifico,especie,genero,familia,ordem
+65V7X,SPECIES,"Akodon cursor (Winge, 1887)",Akodon cursor,Akodon,Cricetidae,Rodentia
+4RM6W,SPECIES,"Rattus rattus (Linnaeus, 1758)",Rattus rattus,Rattus,Muridae,Rodentia
+5X7NT,SPECIES,"Callithrix geoffroyi (Humboldt, 1812)",Callithrix geoffroyi,Callithrix,Callitrichidae,Primates
+349R3,SPECIES,"Dasyprocta leporina (Linnaeus, 1758)",Dasyprocta leporina,Dasyprocta,Dasyproctidae,Rodentia
+697NY,SPECIES,"Callithrix penicillata (É.Geoffroy Saint-Hilaire, 1812)",Callithrix penicillata,Callithrix,Callitrichidae,Primates
+TBQRT,GENUS,"Subulo Smith, 1827",,Mazama,Cervidae,Artiodactyla
+GZRB,SPECIES,"Artibeus lituratus (Olfers, 1818)",Artibeus lituratus,Artibeus,Phyllostomidae,Chiroptera
+6VY96,SPECIES,Procyon cancrivorus G,Procyon cancrivorus,Procyon,Procyonidae,Carnivora
+3H59B,SPECIES,"Gracilinanus agilis (Burmeister, 1854)",Gracilinanus agilis,Gracilinanus,Didelphidae,Didelphimorphia
+63TBP,GENUS,"Sciurus Linnaeus, 1758",,Sciurus,Sciuridae,Rodentia
+6MK7J,SPECIES,"Hydrochoerus hydrochaeris (Linnaeus, 1766)",Hydrochoerus hydrochaeris,Hydrochoerus,Caviidae,Rodentia
+53HGR,SPECIES,"Sus scrofa Linnaeus, 1758",Sus scrofa,Sus,Suidae,Artiodactyla
+45STB,SPECIES,"Nasua nasua (Linnaeus, 1766)",Nasua nasua,Nasua,Procyonidae,Carnivora
+6D4X2,SPECIES,"Didelphis albiventris Lund, 1840",Didelphis albiventris,Didelphis,Didelphidae,Didelphimorphia
+7KDLZ,SUBSPECIES,"Nasua nasua solitaria Schinz, 1823",Nasua nasua,Nasua,Procyonidae,Carnivora
+C49S2,SPECIES,"Coendou spinosus F.Cuvier, 1823",Coendou spinosus,Coendou,Erethizontidae,Rodentia
+43FSR,SPECIES,"Mimon bennettii (Gray, 1838)",Mimon bennettii,Mimon,Phyllostomidae,Chiroptera
+3DXV3,SPECIES,"Felis catus Linnaeus, 1758",Felis catus,Felis,Felidae,Carnivora
+35WKB,SPECIES,"Didelphis aurita (Wied-Neuwied, 1826)",Didelphis aurita,Didelphis,Didelphidae,Didelphimorphia
+7RTG4,SPECIES,"Caluromys philander (Linnaeus, 1758)",Caluromys philander,Caluromys,Didelphidae,Didelphimorphia
+45B2F,SPECIES,"Myrmecophaga tridactyla Linnaeus, 1758",Myrmecophaga tridactyla,Myrmecophaga,Myrmecophagidae,Pilosa
+66Y5J,SPECIES,"Anoura caudifer (E.Geoffroy, 1818)",Anoura caudifer,Anoura,Phyllostomidae,Chiroptera
+69DLM,SPECIES,"Carollia perspicillata (Linnaeus, 1758)",Carollia perspicillata,Carollia,Phyllostomidae,Chiroptera
+3GDTZ,SPECIES,"Glossophaga soricina (Pallas, 1766)",Glossophaga soricina,Glossophaga,Phyllostomidae,Chiroptera
+54M4Z,SPECIES,"Tamandua tetradactyla (Linnaeus, 1758)",Tamandua tetradactyla,Tamandua,Myrmecophagidae,Pilosa
+53N8R,SPECIES,"Sylvilagus brasiliensis (Linnaeus, 1758)",Sylvilagus brasiliensis,Sylvilagus,Leporidae,Lagomorpha
+349W8,SPECIES,"Dasypus novemcinctus Linnaeus, 1758",Dasypus novemcinctus,Dasypus,Dasypodidae,Cingulata
+5383V,SPECIES,"Sturnira lilium (E.Geoffroy, 1810)",Sturnira lilium,Sturnira,Phyllostomidae,Chiroptera
+349QV,SPECIES,"Dasyprocta azarae Lichtenstein, 1823",Dasyprocta azarae,Dasyprocta,Dasyproctidae,Rodentia
+6S7HG,SPECIES,"Nectomys squamipes (Brants, 1827)",Nectomys squamipes,Nectomys,Cricetidae,Rodentia
+6PPYF,SPECIES,"Lepus europaeus Pallas, 1778",Lepus europaeus,Lepus,Leporidae,Lagomorpha
+353LY,SPECIES,"Desmodus rotundus (E.Geoffroy, 1810)",Desmodus rotundus,Desmodus,Phyllostomidae,Chiroptera
+7R5Z8,SPECIES,"Artibeus fimbriatus Gray, 1838",Artibeus fimbriatus,Artibeus,Phyllostomidae,Chiroptera
+3HRJ,GENUS,"Carollia Gray, 1838",,Carollia,Phyllostomidae,Chiroptera
+62ZG3,GENUS,"Mazama Rafinesque, 1817",,Mazama,Cervidae,Artiodactyla
+55297,SPECIES,"Tayassu pecari (Link, 1795)",Tayassu pecari,Tayassu,Tayassuidae,Artiodactyla
+CVF,FAMILY,Molossidae,,,Molossidae,Chiroptera
+4JY2M,SPECIES,"Platyrrhinus lineatus (E.Geoffroy, 1810)",Platyrrhinus lineatus,Platyrrhinus,Phyllostomidae,Chiroptera
+7PLW,GENUS,"Sturnira Gray, 1842",,Sturnira,Phyllostomidae,Chiroptera
+4MF3Z,SPECIES,"Priodontes maximus (Kerr, 1792)",Priodontes maximus,Priodontes,Chlamyphoridae,Cingulata
+62TG8,GENUS,"Euphractus Wagler, 1830",,Euphractus,Chlamyphoridae,Cingulata
+6BPX8,SPECIES,"Cuniculus paca (Linnaeus, 1766)",Cuniculus paca,Cuniculus,Cuniculidae,Rodentia
+8LH4D,SPECIES,"Lasiurus ega (Gervais, 1856)",Dasypterus ega,Dasypterus,Vespertilionidae,Chiroptera
+6TW4J,SPECIES,"Pecari tajacu (Linnaeus, 1758)",Pecari tajacu,Pecari,Tayassuidae,Artiodactyla
+R69ZC,GENUS,"Neoeptesicus Cláudio, Novaes, Gardner, Nogueira, Wilson, Maldonado, Oliveira & Moratelli, 2023",Eptesicus furinalis,Eptesicus,Vespertilionidae,Chiroptera
+6HFSS,SPECIES,"Euryoryzomys russatus (Wagner, 1848)",Euryoryzomys russatus,Euryoryzomys,Cricetidae,Rodentia
+3CRM6,SPECIES,"Euphractus sexcinctus (Linnaeus, 1758)",Euphractus sexcinctus,Euphractus,Chlamyphoridae,Cingulata
+3WJ98,SPECIES,"Lycalopex vetulus (Lund, 1842)",Lycalopex vetulus,Lycalopex,Canidae,Carnivora
+6P3C3,SPECIES,"Lasiurus blossevillii (Lesson & Garnot, 1826)",Lasiurus blossevillii,Lasiurus,Vespertilionidae,Chiroptera
+4QHKG,SPECIES,"Puma concolor (Linnaeus, 1771)",Puma concolor,Puma,Felidae,Carnivora
+455L,GENUS,"Didelphis Linnaeus, 1758",,Didelphis,Didelphidae,Didelphimorphia
+62JR7,GENUS,"Cabassous McMurtrie, 1831",,Cabassous,Chlamyphoridae,Cingulata
+675K,GENUS,"Oecomys Thomas, 1906",,Oecomys,Cricetidae,Rodentia
+56LSZ,SPECIES,"Thrichomys apereoides (Lund, 1839)",Thrichomys apereoides,Thrichomys,Echimyidae,Rodentia
+54TGS,SPECIES,"Tapirus terrestris (Linnaeus, 1758)",Tapirus terrestris,Tapirus,Tapiridae,Perissodactyla
+84X9K,SPECIES,"Carollia brevicaudum (Schinz, 1821)",Carollia brevicaudum,Carollia,Phyllostomidae,Chiroptera
+496XM,SPECIES,"Oligoryzomys flavescens (Waterhouse, 1837)",Oligoryzomys flavescens,Oligoryzomys,Cricetidae,Rodentia
+RB6,GENUS,"Akodon Meyen, 1833",,Akodon,Cricetidae,Rodentia
+45ZS2,SPECIES,"Necromys lasiurus (Lund, 1841)",Necromys lasiurus,Necromys,Cricetidae,Rodentia
+SWGW,SPECIES,"Cerdocyon thous (Linnaeus, 1766)",Cerdocyon thous,Cerdocyon,Canidae,Carnivora
+T4SG,SPECIES,"Cerradomys subflavus (Wagner, 1842)",Cerradomys subflavus,Cerradomys,Cricetidae,Rodentia
+72TR2,SPECIES,"Marmosops incanus (Lund, 1840)",Marmosops incanus,Marmosops,Didelphidae,Didelphimorphia
+828R,GENUS,"Trinomys Thomas, 1921",,Trinomys,Echimyidae,Rodentia
+666VG,SPECIES,"Akodon montensis Thomas, 1913",Akodon montensis,Akodon,Cricetidae,Rodentia
+3L8N,GENUS,"Cerradomys Weksler, Percequillo & Voss, 2006",,Cerradomys,Cricetidae,Rodentia
+623RM,FAMILY,Felidae,,,Felidae,Carnivora
+C5QC,SPECIES,"Alouatta guariba (Humboldt, 1812)",Alouatta guariba,Alouatta,Atelidae,Primates
+74L42,SPECIES,"Oligoryzomys nigripes (Olfers, 1818)",Oligoryzomys nigripes,Oligoryzomys,Cricetidae,Rodentia
+98X,FAMILY,Didelphidae,,,Didelphidae,Didelphimorphia
+4XN2,GENUS,"Histiotus Gervais, 1856",,Histiotus,Vespertilionidae,Chiroptera
+5LHH,GENUS,"Marmosops Matschie, 1916",,Marmosops,Didelphidae,Didelphimorphia
+36G4Q,SPECIES,"Diphylla ecaudata Spix, 1823",Diphylla ecaudata,Diphylla,Phyllostomidae,Chiroptera
+4QJZ,GENUS,"Gracilinanus Gardner & Creighton, 1989",,Gracilinanus,Didelphidae,Didelphimorphia
+5YNGG,SPECIES,"Chrysocyon brachyurus (Illiger, 1815)",Chrysocyon brachyurus,Chrysocyon,Canidae,Carnivora
+R69YZ,GENUS,"Neoeptesicus Cláudio, Novaes, Gardner, Nogueira, Wilson, Maldonado, Oliveira & Moratelli, 2023",Eptesicus brasiliensis,Eptesicus,Vespertilionidae,Chiroptera
+GZRD,SPECIES,"Artibeus obscurus (Schinz, 1821)",Artibeus obscurus,Artibeus,Phyllostomidae,Chiroptera
+43YHD,SPECIES,"Molossops temminckii (Burmeister, 1854)",Molossops temminckii,Molossops,Molossidae,Chiroptera
+GZRH,SPECIES,"Artibeus planirostris (Spix, 1823)",Artibeus planirostris,Artibeus,Phyllostomidae,Chiroptera
+MCYXJ,GENUS,"Callitrix Cuvier, 1800",,Callithrix,Callitrichidae,Primates
+4326R,SPECIES,"Micronycteris schmidtorum Sanborn, 1935",Micronycteris schmidtorum,Micronycteris,Phyllostomidae,Chiroptera
+4G4WG,SPECIES,"Philander frenatus (Olfers, 1818)",Philander opossum,Philander,Didelphidae,Didelphimorphia
+5RB4,GENUS,"Micoureus Lesson, 1842",,Marmosa,Didelphidae,Didelphimorphia
+4VNCS,SPECIES,"Sciurus aestuans Linnaeus, 1766",Sciurus aestuans,Sciurus,Sciuridae,Rodentia
+4JY2K,SPECIES,"Platyrrhinus helleri (Peters, 1866)",Platyrrhinus helleri,Platyrrhinus,Phyllostomidae,Chiroptera
+LR3V,SPECIES,"Bibimys labiosus (Winge, 1887)",Bibimys labiosus,Bibimys,Cricetidae,Rodentia
+8ZQ,FAMILY,Dasypodidae,,,Dasypodidae,Cingulata
+MLQ5,SPECIES,"Bos taurus Linnaeus, 1758",Bos taurus,Bos,Bovidae,Artiodactyla
+4JY2Q,SPECIES,"Platyrrhinus recifinus (Thomas, 1901)",Platyrrhinus recifinus,Platyrrhinus,Phyllostomidae,Chiroptera
+4RM67,SPECIES,"Rattus norvegicus (Berkenhout, 1769)",Rattus norvegicus,Rattus,Muridae,Rodentia
+5BYM6,SPECIES,"Wiedomys pyrrhorhinos (Wied-Neuwied, 1821)",Wiedomys pyrrhorhinos,Wiedomys,Cricetidae,Rodentia
+3YJ7T,SPECIES,Mazama gouazoubira G.Fischer,Mazama gouazoubira,Mazama,Cervidae,Artiodactyla
+625JW,FAMILY,Phyllostomidae,,,Phyllostomidae,Chiroptera
+3H59J,SPECIES,"Gracilinanus microtarsus (Wagner, 1842)",Gracilinanus microtarsus,Gracilinanus,Didelphidae,Didelphimorphia
+GZQV,SPECIES,"Artibeus cinereus (Gervais, 1856)",Artibeus cinereus,Artibeus,Phyllostomidae,Chiroptera
+4SB7M,SPECIES,"Rhipidomys mastacalis (Lund, 1840)",Rhipidomys mastacalis,Rhipidomys,Cricetidae,Rodentia
+456G9,SPECIES,"Myotis nigricans (Schinz, 1821)",Myotis nigricans,Myotis,Vespertilionidae,Chiroptera
+63QBS,GENUS,"Rhipidomys Tschudi, 1845",,Rhipidomys,Cricetidae,Rodentia
+4326K,SPECIES,"Micronycteris megalotis (Gray, 1842)",Micronycteris megalotis,Micronycteris,Phyllostomidae,Chiroptera
+38VYB,SPECIES,"Eira barbara (Linnaeus, 1758)",Eira barbara,Eira,Mustelidae,Carnivora
+62TGJ,GENUS,"Eumops Miller, 1906",,Eumops,Molossidae,Chiroptera
+446MY,SPECIES,"Monodelphis americana (Müller, 1776)",Monodelphis americana,Monodelphis,Didelphidae,Didelphimorphia
+42PTL,SPECIES,"Micoureus paraguayanus (Tate, 1931)",Marmosa paraguayana,Marmosa,Didelphidae,Didelphimorphia
+43YHQ,SPECIES,"Molossus currentium Thomas, 1901",Molossus currentium,Molossus,Molossidae,Chiroptera
+679TJ,SPECIES,"Anoura caudifera (E.Geoffroy, 1818)",Anoura caudifer,Anoura,Phyllostomidae,Chiroptera
+446N3,SPECIES,"Monodelphis domestica (Wagner, 1842)",Monodelphis domestica,Monodelphis,Didelphidae,Didelphimorphia
+67QV,GENUS,"Oligoryzomys Bangs, 1900",,Oligoryzomys,Cricetidae,Rodentia
+3VZKS,SPECIES,"Lontra longicaudis (Olfers, 1818)",Lontra longicaudis,Lontra,Mustelidae,Carnivora
+PMLQ,SPECIES,"Callicebus nigrifrons (Spix, 1823)",Callicebus nigrifrons,Callicebus,Pitheciidae,Primates
+3R6DR,SPECIES,"Kerodon rupestris (Wied-Neuwied, 1820)",Kerodon rupestris,Kerodon,Caviidae,Rodentia
+5CC6,GENUS,"Leopardus Gray, 1842",,Leopardus,Felidae,Carnivora
+4DKW,GENUS,"Eptesicus Rafinesque, 1820",,Eptesicus,Vespertilionidae,Chiroptera
+5S4Y,GENUS,"Micronycteris Gray, 1866",,Micronycteris,Phyllostomidae,Chiroptera
+3T78D,SPECIES,"Leopardus pardalis (Linnaeus, 1758)",Leopardus pardalis,Leopardus,Felidae,Carnivora
+679TK,SPECIES,"Anoura geoffroyi Gray, 1838",Anoura geoffroyi,Anoura,Phyllostomidae,Chiroptera
+KB9,GENUS,"Guerlinguetus Gray, 1821",,,Sciuridae,Rodentia
+43YHY,SPECIES,"Molossus molossus (Pallas, 1766)",Molossus molossus,Molossus,Molossidae,Chiroptera
+5WVNT,SPECIES,"Callithrix flaviceps (Thomas, 1903)",Callithrix flaviceps,Callithrix,Callitrichidae,Primates
+6QMZZ,SPECIES,"Lonchophylla bokermanni Sazima, Vizotto & Taddei, 1978",Lonchophylla bokermanni,Lonchophylla,Phyllostomidae,Chiroptera
+7FDSJ,SPECIES,"Vampyressa pusilla (Wagner, 1843)",Vampyressa pusilla,Vampyressa,Phyllostomidae,Chiroptera
+63GKJ,GENUS,"Oryzomys Baird, 1857",,Oryzomys,Cricetidae,Rodentia
+5LHG,GENUS,"Marmosa Gray, 1821",,Marmosa,Didelphidae,Didelphimorphia
+6KLXN,SPECIES,"Glyphonycteris sylvestris Thomas, 1896",Glyphonycteris sylvestris,Glyphonycteris,Phyllostomidae,Chiroptera
+68VFY,SPECIES,"Calomys tener (Winge, 1888)",Calomys tener,Calomys,Cricetidae,Rodentia
+456GX,SPECIES,"Myotis ruber (E.Geoffroy, 1806)",Myotis ruber,Myotis,Vespertilionidae,Chiroptera
+6XJW7,SPECIES,"Sapajus nigritus (Goldfuss, 1809)",Sapajus nigritus,Sapajus,Cebidae,Primates
+7WBJ,GENUS,"Thrichomys Trouessart, 1880",,Thrichomys,Echimyidae,Rodentia
+4HCWZ,SPECIES,"Phyllostomus discolor Wagner, 1843",Phyllostomus discolor,Phyllostomus,Phyllostomidae,Chiroptera
+5YK72,SPECIES,"Chrotopterus auritus (Peters, 1856)",Chrotopterus auritus,Chrotopterus,Phyllostomidae,Chiroptera
+6P8MM,SPECIES,"Leopardus tigrinus (Schreber, 1775)",Leopardus tigrinus,Leopardus,Felidae,Carnivora
+5WGF,GENUS,"Myotis Kaup, 1829",,Myotis,Vespertilionidae,Chiroptera
+68NTW,SPECIES,"Bolomys lasiurus (Lund, 1841)",Necromys lasiurus,Necromys,Cricetidae,Rodentia
+42952,SPECIES,"Metachirus nudicaudatus (É.Geoffroy Saint-Hilaire, 1803)",Metachirus nudicaudatus,Metachirus,Didelphidae,Didelphimorphia
+6CQK7,SPECIES,"Diaemus youngii (Jentink, 1893)",Diaemus youngii,Diaemus,Phyllostomidae,Chiroptera
+3VY8L,SPECIES,"Lonchophylla mordax Thomas, 1903",Lonchophylla mordax,Lonchophylla,Phyllostomidae,Chiroptera
+3NDGP,SPECIES,"Hylaeamys megacephalus (Fischer, 1814)",Hylaeamys megacephalus,Hylaeamys,Cricetidae,Rodentia
+4HCX3,SPECIES,"Phyllostomus hastatus (Pallas, 1767)",Phyllostomus hastatus,Phyllostomus,Phyllostomidae,Chiroptera
+5WRMR,SPECIES,"Brachyteles arachnoides (É.Geoffroy Saint-Hilaire, 1806)",Brachyteles arachnoides,Brachyteles,Atelidae,Primates
+4QHKJ,SPECIES,"Puma yagouaroundi (É.Geoffroy Saint-Hilaire, 1803)",Herpailurus yagouaroundi,Herpailurus,Felidae,Carnivora
+62Q88,GENUS,"Dasypus Linnaeus, 1758",,Dasypus,Dasypodidae,Cingulata
+XLCF,SPECIES,"Conepatus semistriatus (Boddaert, 1785)",Conepatus semistriatus,Conepatus,Mephitidae,Carnivora
+8P5,FAMILY,Cricetidae,,,Cricetidae,Rodentia
+69STX,SPECIES,"Chiroderma doriae Thomas, 1891",Chiroderma doriae,Chiroderma,Phyllostomidae,Chiroptera
+43YHB,SPECIES,"Molossops neglectus Williams & Genoways, 1980",Molossops neglectus,Molossops,Molossidae,Chiroptera
+7XR,FAMILY,Cervidae,,,Cervidae,Artiodactyla
+72MZZ,SPECIES,"Lonchophylla dekeyseri Taddei, Vizotto & Sazima, 1983",Lonchophylla dekeyseri,Lonchophylla,Phyllostomidae,Chiroptera
+XC,ORDER,Chiroptera,,,,Chiroptera
+7CT9T,SPECIES,"Trinomys albispinus (I.Geoffroy Saint-Hilaire, 1838)",Trinomys albispinus,Trinomys,Echimyidae,Rodentia
+3N622,SPECIES,"Hydrochaeris hydrochaeris (Linnaeus, 1766)",Hydrochoerus hydrochaeris,Hydrochoerus,Caviidae,Rodentia
+3Z5,ORDER,Rodentia,,,,Rodentia
+4BG4D,SPECIES,"Oxymycterus dasytrichus (Schinz, 1821)",Oxymycterus dasytrichus,Oxymycterus,Cricetidae,Rodentia
+4CGXQ,SPECIES,"Panthera onca (Linnaeus, 1758)",Panthera onca,Panthera,Felidae,Carnivora
+F2C,FAMILY,Procyonidae,,,Procyonidae,Carnivora
+3FV9,GENUS,"Calomys Waterhouse, 1837",,Calomys,Cricetidae,Rodentia
+3D8DS,SPECIES,"Euryzygomatomys spinosus (Fischer de Waldheim, 1814)",Euryzygomatomys spinosus,Euryzygomatomys,Echimyidae,Rodentia
+3FM4,GENUS,"Callithrix Erxleben, 1777",,Callithrix,Callitrichidae,Primates
+6RRQT,SPECIES,"Myocastor coypus (Molina, 1782)",Myocastor coypus,Myocastor,Echimyidae,Rodentia
+6S3Q,GENUS,"Platyrrhinus Saussure, 1860",,Platyrrhinus,Phyllostomidae,Chiroptera
+QLXF,SPECIES,"Canis familiaris Linnaeus, 1758",Canis familiaris,Canis,Canidae,Carnivora
+3F53J,SPECIES,"Galictis vittata (Schreber, 1776)",Galictis vittata,Galictis,Mustelidae,Carnivora
+4QP5F,SPECIES,"Pygoderma bilabiatum (Wagner, 1843)",Pygoderma bilabiatum,Pygoderma,Phyllostomidae,Chiroptera
+4CGXP,SPECIES,"Panthera leo (Linnaeus, 1758)",Panthera leo,Panthera,Felidae,Carnivora
+843K,GENUS,"Tylomys Peters, 1866",,Tylomys,Cricetidae,Rodentia
+4643,GENUS,"Diphylla Spix, 1823",,Diphylla,Phyllostomidae,Chiroptera
+M2J6,SPECIES,"Blastocerus dichotomus (Illiger, 1815)",Blastocerus dichotomus,Blastocerus,Cervidae,Artiodactyla
+L299D,FAMILY,Mustelidae,,,Mustelidae,Carnivora
+3YJ7P,SPECIES,"Mazama americana (Erxleben, 1777)",Mazama americana,Mazama,Cervidae,Artiodactyla
+4MQLH,SPECIES,"Proechimys roberti Thomas, 1901",Proechimys roberti,Proechimys,Echimyidae,Rodentia
+N2VC,SPECIES,"Brachyteles hypoxanthus (Kuhl, 1820)",Brachyteles hypoxanthus,Brachyteles,Atelidae,Primates
+6KLXM,SPECIES,"Glyphonycteris behnii (Peters, 1865)",Glyphonycteris behnii,Glyphonycteris,Phyllostomidae,Chiroptera
+3M5GN,SPECIES,"Histiotus velatus (I.Geoffroy, 1824)",Histiotus velatus,Histiotus,Vespertilionidae,Chiroptera
+7DT95,SPECIES,"Uroderma magnirostrum Davis, 1968",Uroderma magnirostrum,Uroderma,Phyllostomidae,Chiroptera
+75HDT,SPECIES,"Oxymycterus delator Thomas, 1903",Oxymycterus delator,Oxymycterus,Cricetidae,Rodentia
+T4SF,SPECIES,"Cerradomys scotti (Langguth & Bonvicino, 2002)",Cerradomys scotti,Cerradomys,Cricetidae,Rodentia
+6BDL,GENUS,"Oxymycterus Waterhouse, 1837",,Oxymycterus,Cricetidae,Rodentia
+P43N,SPECIES,"Cabassous tatouay (Desmarest, 1804)",Cabassous tatouay,Cabassous,Chlamyphoridae,Cingulata
+7TKN2,SPECIES,"Equus caballus Linnaeus, 1758",Equus caballus,Equus,Equidae,Perissodactyla
+79K7Y,SPECIES,"Sapajus libidinosus (Spix, 1823)",Sapajus libidinosus,Sapajus,Cebidae,Primates
+4P9N,GENUS,"Glossophaga E.Geoffroy, 1818",,Glossophaga,Phyllostomidae,Chiroptera
+74YZ5,SPECIES,"Oryzomys subflavus (Wagner, 1842)",Cerradomys subflavus,Cerradomys,Cricetidae,Rodentia
+HTH,FAMILY,Vespertilionidae,,,Vespertilionidae,Chiroptera
+63QK6,GENUS,"Rattus Fischer, 1803",,Rattus,Muridae,Rodentia
+446ND,SPECIES,"Monodelphis sorex (Hensel, 1872)",Monodelphis dimidiata,Monodelphis,Didelphidae,Didelphimorphia
+4MSWJ,SPECIES,"Promops centralis Thomas, 1915",Promops centralis,Promops,Molossidae,Chiroptera
+6295H,GENUS,"Alouatta Lacépède, 1799",,Alouatta,Atelidae,Primates
+6P8KN,SPECIES,"Leopardus guttulus (Hensel, 1872)",Leopardus guttulus,Leopardus,Felidae,Carnivora
+DTCSX,SPECIES,"Marmosa paraguayana Tate, 1931",Marmosa paraguayana,Marmosa,Didelphidae,Didelphimorphia
+3F53G,SPECIES,"Galictis cuja (Molina, 1782)",Galictis cuja,Galictis,Mustelidae,Carnivora
+P43P,SPECIES,"Cabassous unicinctus (Linnaeus, 1758)",Cabassous unicinctus,Cabassous,Chlamyphoridae,Cingulata
+RYZV,SPECIES,"Cebus nigritus (Goldfuss, 1809)",Sapajus nigritus,Sapajus,Cebidae,Primates
+34Q,ORDER,Didelphimorphia,,,,Didelphimorphia
+485PL,SPECIES,"Nyctinomops laticaudatus (E.Geoffroy, 1805)",Nyctinomops laticaudatus,Nyctinomops,Molossidae,Chiroptera
+3R29W,SPECIES,"Kannabateomys amblyonyx (Wagner, 1845)",Kannabateomys amblyonyx,Kannabateomys,Echimyidae,Rodentia
+WTYV,SPECIES,"Coendou prehensilis (Linnaeus, 1758)",Coendou prehensilis,Coendou,Erethizontidae,Rodentia
+6GYM7,SPECIES,"Eumops auripendulus (Shaw, 1800)",Eumops auripendulus,Eumops,Molossidae,Chiroptera
+68VNQ,SPECIES,"Callithrix aurita (É.Geoffroy Saint-Hilaire, 1812)",Callithrix aurita,Callithrix,Callitrichidae,Primates
+6C7W2,SPECIES,"Cynomops planirostris (Peters, 1866)",Cynomops planirostris,Cynomops,Molossidae,Chiroptera
+446N7,SPECIES,"Monodelphis kunsi Pine, 1975",Monodelphis kunsi,Monodelphis,Didelphidae,Didelphimorphia
+7CGWZ,SPECIES,"Tonatia bidens (Spix, 1823)",Tonatia bidens,Tonatia,Phyllostomidae,Chiroptera
+63DD9,GENUS,"Monodelphis Burnett, 1830",,Monodelphis,Didelphidae,Didelphimorphia
+4326M,SPECIES,"Micronycteris minuta (Gervais, 1856)",Micronycteris minuta,Micronycteris,Phyllostomidae,Chiroptera
+456GV,SPECIES,"Myotis riparius Handley, 1960",Myotis riparius,Myotis,Vespertilionidae,Chiroptera
+7QR2,GENUS,"Sylvilagus Gray, 1867",,Sylvilagus,Leporidae,Lagomorpha
+48V4W,SPECIES,"Oecomys catherinae Thomas, 1909",Oecomys catherinae,Oecomys,Cricetidae,Rodentia
+RY7N,SPECIES,"Cavia aperea Erxleben, 1777",Cavia aperea,Cavia,Caviidae,Rodentia
+TXWXN,SPECIES,"Wiedomys cerradensis Gonçalves, Almeida & Bonvicino, 2005",Wiedomys cerradensis,Wiedomys,Cricetidae,Rodentia
+4326L,SPECIES,"Micronycteris microtis Miller, 1898",Micronycteris microtis,Micronycteris,Phyllostomidae,Chiroptera
+RYYV,SPECIES,"Cebus apella (Linnaeus, 1758)",Sapajus apella,Sapajus,Cebidae,Primates
+3FCV,GENUS,"Callicebus Thomas, 1903",,Callicebus,Pitheciidae,Primates
+7C6Z7,SPECIES,"Thaptomys nigrita (Lichtenstein, 1829)",Thaptomys nigrita,Thaptomys,Cricetidae,Rodentia
+44NK3,SPECIES,"Mus musculus Linnaeus, 1758",Mus musculus,Mus,Muridae,Rodentia
+43FST,SPECIES,"Mimon crenulatum (E.Geoffroy, 1803)",Gardnerycteris crenulatum,Gardnerycteris,Phyllostomidae,Chiroptera
+4BQ,ORDER,Xenarthra,,,,Cingulata
+6S43H,SPECIES,"Myotis lavali Moratelli, Peracchi, Dias & de Oliveira, 2011",Myotis lavali,Myotis,Vespertilionidae,Chiroptera
+4BNWT,SPECIES,"Ozotoceros bezoarticus (Linnaeus, 1758)",Ozotoceros bezoarticus,Ozotoceros,Cervidae,Artiodactyla
+5Y55Y,SPECIES,"Chiroderma villosum Peters, 1860",Chiroderma villosum,Chiroderma,Phyllostomidae,Chiroptera
+4SB7L,SPECIES,"Rhipidomys macrurus (Gervais, 1855)",Rhipidomys macrurus,Rhipidomys,Cricetidae,Rodentia
+643NG,GENUS,"Sapajus Kerr, 1792",,Sapajus,Cebidae,Primates
+349WB,SPECIES,"Dasypus septemcinctus Linnaeus, 1758",Dasypus septemcinctus,Dasypus,Dasypodidae,Cingulata
+3V6ZQ,SPECIES,"Lionycteris spurrelli Thomas, 1913",Lionycteris spurrelli,Lionycteris,Phyllostomidae,Chiroptera
+VS,ORDER,Carnivora,,,,Carnivora
+4RZ7F,SPECIES,"Rhagomys rufescens (Thomas, 1886)",Rhagomys rufescens,Rhagomys,Cricetidae,Rodentia
+58VMK,SPECIES,"Trinomys setosus (Desmarest, 1817)",Trinomys setosus,Trinomys,Echimyidae,Rodentia
+456FH,SPECIES,"Myotis levis (I.Geoffroy, 1824)",Myotis levis,Myotis,Vespertilionidae,Chiroptera
+5Y7M,GENUS,"Nectomys Peters, 1861",,Nectomys,Cricetidae,Rodentia
+4F8PP,SPECIES,"Peropteryx macrotis (Wagner, 1843)",Peropteryx macrotis,Peropteryx,Emballonuridae,Chiroptera
+62CJH,GENUS,"Artibeus Leach, 1821",,Artibeus,Phyllostomidae,Chiroptera
+4SS3B,SPECIES,"Rhynchonycteris naso (Wied-Neuwied, 1820)",Rhynchonycteris naso,Rhynchonycteris,Emballonuridae,Chiroptera
+43YHH,SPECIES,"Molossus aztecus Saussure, 1860",Molossus aztecus,Molossus,Molossidae,Chiroptera
+C5Q8,SPECIES,"Alouatta caraya (Humboldt, 1812)",Alouatta caraya,Alouatta,Atelidae,Primates
+6NBK,GENUS,"Philander Brisson, 1762",,Philander,Didelphidae,Didelphimorphia
+3T78F,SPECIES,"Leopardus wiedii (Schinz, 1821)",Leopardus wiedii,Leopardus,Felidae,Carnivora
+PYL2,SPECIES,"Calomys callosus (Rengger, 1830)",Calomys callosus,Calomys,Cricetidae,Rodentia
+N5F8,SPECIES,"Bradypus variegatus Schinz, 1825",Bradypus variegatus,Bradypus,Bradypodidae,Pilosa
+63BKR,GENUS,"Molossus E.Geoffroy, 1805",,Molossus,Molossidae,Chiroptera
+KSRGN,SPECIES,"Cryptonanus agricolai (Moojen, 1943)",Cryptonanus agricolai,Cryptonanus,Didelphidae,Didelphimorphia
+R69Z7,GENUS,"Neoeptesicus Cláudio, Novaes, Gardner, Nogueira, Wilson, Maldonado, Oliveira & Moratelli, 2023",Eptesicus diminutus,Eptesicus,Vespertilionidae,Chiroptera
+8LQR,SPECIES,"Abrawayaomys ruschii Cunha & Cruz, 1979",Abrawayaomys ruschii,Abrawayaomys,Cricetidae,Rodentia
+62RKX,GENUS,"Erinaceus Linnaeus, 1758",,Erinaceus,Erinaceidae,Eulipotyphla
+87XC,GENUS,"Wiedomys Hershkovitz, 1959",,Wiedomys,Cricetidae,Rodentia
+PYL3,SPECIES,"Calomys cerqueirai Bonvicino, Oliveira & Gentile, 2010",Calomys cerqueirai,Calomys,Cricetidae,Rodentia
+496XL,SPECIES,"Oligoryzomys eliurus (Wagner, 1845)",Oligoryzomys eliurus,Oligoryzomys,Cricetidae,Rodentia
+42PTK,SPECIES,"Micoureus demerarae (Thomas, 1905)",Marmosa demerarae,Marmosa,Didelphidae,Didelphimorphia
+6PPH,GENUS,"Phyllomys Lund, 1839",,Phyllomys,Echimyidae,Rodentia
+3NVB,GENUS,"Choeroniscus Thomas, 1928",,Choeroniscus,Phyllostomidae,Chiroptera
+NXFWB,GENUS,"Guerlinguetus Gray, 1821",,Guerlinguetus,Sciuridae,Rodentia
+3CLZ,GENUS,"Brachyteles Spix, 1823",,Brachyteles,Atelidae,Primates
+CFYBG,SPECIES,"Herpailurus yagouaroundi (É.Geoffroy Saint-Hilaire, 1803)",Herpailurus yagouaroundi,Herpailurus,Felidae,Carnivora
+3RYX,GENUS,"Coendou Lacépède, 1799",,Coendou,Erethizontidae,Rodentia
+PMLW,SPECIES,"Callicebus personatus (É.Geoffroy Saint-Hilaire, 1812)",Callicebus personatus,Callicebus,Pitheciidae,Primates
+4Y9ZV,SPECIES,"Sooretamys angouya (Fischer, 1814)",Sooretamys angouya,Sooretamys,Cricetidae,Rodentia
+6224G,CLASS,Mammalia,,,,
+KSRGM,GENUS,"Cryptonanus Voss, Lunde & Jansa, 2005",,Cryptonanus,Didelphidae,Didelphimorphia
+3G2L,GENUS,"Caluromys J.A.Allen, 1900",,Caluromys,Didelphidae,Didelphimorphia
+3YKT,GENUS,"Cynomops Thomas, 1920",,Cynomops,Molossidae,Chiroptera
+7V77,GENUS,"Thalpomys Thomas, 1916",,Thalpomys,Cricetidae,Rodentia
+62PLX,GENUS,"Desmodus Wied-Neuwied, 1826",,Desmodus,Phyllostomidae,Chiroptera
+5XMXD,SPECIES,"Cerradomys marinhus (Bonvicino, 2003)",Cerradomys marinhus,Cerradomys,Cricetidae,Rodentia
+3T3X,GENUS,"Conepatus Gray, 1837",,Conepatus,Mephitidae,Carnivora
+4MQL3,SPECIES,"Proechimys guyannensis (É.Geoffroy Saint-Hilaire, 1803)",Proechimys guyannensis,Proechimys,Echimyidae,Rodentia
+SGC32,SPECIES,"Rhipidomys tribei de Andrade Costa, Geise, Pereira & Costa, 2011",Rhipidomys tribei,Rhipidomys,Cricetidae,Rodentia
+42PD,GENUS,"Delomys Thomas, 1917",,Delomys,Cricetidae,Rodentia
+3F38D,SPECIES,"Galea spixii (Wagler, 1831)",Galea spixii,Galea,Caviidae,Rodentia
+QLXL,SPECIES,"Canis lupus Linnaeus, 1758",Canis lupus,Canis,Canidae,Carnivora
+69Z3L,SPECIES,"Choeroniscus minor (Peters, 1868)",Choeroniscus minor,Choeroniscus,Phyllostomidae,Chiroptera
+C3K84,FAMILY,Canidae,,,Canidae,Carnivora
+WDVN,SPECIES,"Clyomys laticeps (Thomas, 1909)",Clyomys laticeps,Clyomys,Echimyidae,Rodentia
+M236,SPECIES,"Blarinomys breviceps (Winge, 1887)",Blarinomys breviceps,Blarinomys,Cricetidae,Rodentia
+7TR,FAMILY,Caviidae,,,Caviidae,Rodentia
+34H3Y,SPECIES,"Delomys sublineatus (Thomas, 1903)",Delomys sublineatus,Delomys,Cricetidae,Rodentia
+3T786,SPECIES,"Leopardus colocola (Molina, 1782)",Leopardus colocola,Leopardus,Felidae,Carnivora
+349R5,SPECIES,"Dasyprocta prymnolopha Wagler, 1831",Dasyprocta prymnolopha,Dasyprocta,Dasyproctidae,Rodentia
+4H6DZ,SPECIES,"Phylloderma stenops Peters, 1865",Phylloderma stenops,Phylloderma,Phyllostomidae,Chiroptera
+3M5GM,SPECIES,"Histiotus montanus (Philippi & Landbeck, 1861)",Histiotus montanus,Histiotus,Vespertilionidae,Chiroptera
+4XXZ,GENUS,"Holochilus Brandt, 1835",,Holochilus,Cricetidae,Rodentia
+4326H,SPECIES,"Micronycteris homezi Pirlot, 1967",Micronycteris minuta,Micronycteris,Phyllostomidae,Chiroptera
+78BH,GENUS,"Rhagomys Thomas, 1917",,Rhagomys,Cricetidae,Rodentia
+456D4,SPECIES,"Myotis albescens (E.Geoffroy, 1806)",Myotis albescens,Myotis,Vespertilionidae,Chiroptera
+7CLH2,SPECIES,"Trachops cirrhosus (Spix, 1823)",Trachops cirrhosus,Trachops,Phyllostomidae,Chiroptera
+7WHH,GENUS,"Thylamys Gray, 1843",,Thylamys,Didelphidae,Didelphimorphia
+X4K,GENUS,"Anoura Gray, 1838",,Anoura,Phyllostomidae,Chiroptera
+55298,SPECIES,"Tayassu tajacu (Linnaeus, 1758)",Pecari tajacu,Pecari,Tayassuidae,Artiodactyla
+666VC,SPECIES,"Akodon lindberghi Hershkovitz, 1990",Akodon lindberghi,Akodon,Cricetidae,Rodentia
+6YYGF,SPECIES,"Sphiggurus villosus (F.Cuvier, 1823)",Coendou spinosus,Coendou,Erethizontidae,Rodentia
+6RTQR,SPECIES,"Natalus espiritosantensis (Ruschi, 1951)",Natalus macrourus,Natalus,Natalidae,Chiroptera
+G48,FAMILY,Sciuridae,,,Sciuridae,Rodentia
+47KW2,SPECIES,"Noctilio albiventris Desmarest, 1818",Noctilio albiventris,Noctilio,Noctilionidae,Chiroptera
+4YJ85,SPECIES,"Speothos venaticus (Lund, 1842)",Speothos venaticus,Speothos,Canidae,Carnivora
+NXFWR,SPECIES,"Guerlinguetus aestuans (Linnaeus, 1766)",Sciurus aestuans,Sciurus,Sciuridae,Rodentia
+5Y6J,GENUS,"Necromys Ameghino, 1889",,Necromys,Cricetidae,Rodentia
+4LW8,GENUS,"Galictis Bell, 1826",,Galictis,Mustelidae,Carnivora
+58VMG,SPECIES,"Trinomys moojeni (Pessôa, Oliveira & Reis, 1992)",Trinomys moojeni,Trinomys,Echimyidae,Rodentia
+3QS78,SPECIES,"Juliomys pictipes (Osgood, 1933)",Juliomys pictipes,Juliomys,Cricetidae,Rodentia
+9JX,FAMILY,Echimyidae,,,Echimyidae,Rodentia
+3F2,ORDER,Lagomorpha,,,,Lagomorpha
+62PZH,GENUS,"Cuniculus Brisson, 1762",,Cuniculus,Cuniculidae,Rodentia
+3JSH,GENUS,"Cavia Pallas, 1766",,Cavia,Caviidae,Rodentia
+562W8,SPECIES,"Thalpomys lasiotis Thomas, 1916",Thalpomys lasiotis,Thalpomys,Cricetidae,Rodentia
+646KD,GENUS,"Thaptomys Thomas, 1916",,Thaptomys,Cricetidae,Rodentia
+3W7,ORDER,Primates,,,,Primates
+8NNVT,GENUS,"Dermanura P.Gervais, 1856",,Artibeus,Phyllostomidae,Chiroptera
+3W4H6,SPECIES,"Lophostoma brasiliense Peters, 1867",Lophostoma brasiliense,Lophostoma,Phyllostomidae,Chiroptera
+4247,GENUS,"Dasyprocta Illiger, 1811",,Dasyprocta,Dasyproctidae,Rodentia
+62FSZ,GENUS,"Blarinomys Thomas, 1896",,Blarinomys,Cricetidae,Rodentia
+3PD9,GENUS,"Chrotopterus Peters, 1865",,Chrotopterus,Phyllostomidae,Chiroptera
+56Q69,SPECIES,"Thylamys karimii (Petter, 1968)",Thylamys karimii,Thylamys,Didelphidae,Didelphimorphia
+54GGQ,SPECIES,"Tadarida brasiliensis (I.Geoffroy, 1824)",Tadarida brasiliensis,Tadarida,Molossidae,Chiroptera
+4BG4R,SPECIES,"Oxymycterus rufus (Fischer, 1814)",Oxymycterus rufus,Oxymycterus,Cricetidae,Rodentia
+62H5H,GENUS,"Brucepattersonius Hershkovitz, 1998",,Brucepattersonius,Cricetidae,Rodentia
+3WGK7,SPECIES,"Lutreolina crassicaudata (Desmarest, 1804)",Lutreolina crassicaudata,Lutreolina,Didelphidae,Didelphimorphia
+6GYLM,SPECIES,"Eumops perotis (Schinz, 1821)",Eumops perotis,Eumops,Molossidae,Chiroptera
+6GYLX,SPECIES,"Eumops glaucinus (Wagner, 1843)",Eumops glaucinus,Eumops,Molossidae,Chiroptera
+56Q6H,SPECIES,"Thylamys velutinus (Wagner, 1842)",Thylamys velutinus,Thylamys,Didelphidae,Didelphimorphia
+74633,SPECIES,"Natalus stramineus Gray, 1838",Natalus stramineus,Natalus,Natalidae,Chiroptera
+485PM,SPECIES,"Nyctinomops macrotis (Gray, 1840)",Nyctinomops macrotis,Nyctinomops,Molossidae,Chiroptera
+9N2,FAMILY,Emballonuridae,,,Emballonuridae,Chiroptera
+48V4V,SPECIES,"Oecomys bicolor (Tomes, 1860)",Oecomys bicolor,Oecomys,Cricetidae,Rodentia
+R9HFL,SPECIES,"Oligoryzomys mattogrossae (Allen, 1916)",Oligoryzomys mattogrossae,Oligoryzomys,Cricetidae,Rodentia
+4FM3D,SPECIES,"Phaenomys ferrugineus (Thomas, 1894)",Phaenomys ferrugineus,Phaenomys,Cricetidae,Rodentia
+RYZQ,SPECIES,"Cebus libidinosus Spix, 1823",Sapajus libidinosus,Sapajus,Cebidae,Primates
+7CH99,SPECIES,"Tonatia saurophila Koopman & Williams, 1951",Tonatia saurophila,Tonatia,Phyllostomidae,Chiroptera
+3Y842,SPECIES,"Marmosops paulensis (Tate, 1931)",Marmosops paulensis,Marmosops,Didelphidae,Didelphimorphia
+PYL4,SPECIES,"Calomys expulsus (Lund, 1841)",Calomys expulsus,Calomys,Cricetidae,Rodentia
+4ZYV,GENUS,"Hylaeamys Weksler, Percequillo & Voss, 2006",,Hylaeamys,Cricetidae,Rodentia
+48V4Y,SPECIES,"Oecomys concolor (Wagner, 1845)",Oecomys concolor,Oecomys,Cricetidae,Rodentia
+622TD,FAMILY,Atelidae,,,Atelidae,Primates
+4H7XK,SPECIES,"Phyllomys brasiliensis Lund, 1840",Phyllomys brasiliensis,Phyllomys,Echimyidae,Rodentia
+6622,GENUS,"Nyctinomops Miller, 1902",,Nyctinomops,Molossidae,Chiroptera
+7FDSK,SPECIES,"Vampyressa nymphaea Thomas, 1909",Vampyriscus nymphaea,Vampyriscus,Phyllostomidae,Chiroptera
+85SR,GENUS,"Vampyressa Thomas, 1900",,Vampyressa,Phyllostomidae,Chiroptera
+446N6,SPECIES,"Monodelphis iheringi (Thomas, 1888)",Monodelphis iheringi,Monodelphis,Didelphidae,Didelphimorphia
+3X89W,SPECIES,"Macrophyllum macrophyllum (Schinz, 1821)",Macrophyllum macrophyllum,Macrophyllum,Phyllostomidae,Chiroptera
+4GVS,GENUS,"Euryoryzomys Weksler, Percequillo & Voss, 2006",,Euryoryzomys,Cricetidae,Rodentia
+8P76J,SPECIES,"Cynomops paranus (Thomas, 1901)",Cynomops planirostris,Cynomops,Molossidae,Chiroptera
+CLQ,FAMILY,Mephitidae,,,Mephitidae,Carnivora
+3VYBY,SPECIES,"Lonchorhina aurita Tomes, 1863",Lonchorhina aurita,Lonchorhina,Phyllostomidae,Chiroptera
+4MSWN,SPECIES,"Promops nasutus (Spix, 1823)",Promops nasutus,Promops,Molossidae,Chiroptera
+4F8PM,SPECIES,"Peropteryx kappleri Peters, 1867",Peropteryx kappleri,Peropteryx,Emballonuridae,Chiroptera
+64KW,GENUS,"Noctilio Linnaeus, 1766",,Noctilio,Noctilionidae,Chiroptera
+349QY,SPECIES,"Dasyprocta fuliginosa Wagler, 1832",Dasyprocta fuliginosa,Dasyprocta,Dasyproctidae,Rodentia
+4ZR6,GENUS,"Hydrochaeris Brisson, 1762",,Hydrochoerus,Caviidae,Rodentia
+799J,GENUS,"Rhogeessa H.Allen, 1866",,Rhogeessa,Vespertilionidae,Chiroptera
+62HGZ,GENUS,"Bolomys Thomas, 1916",,Necromys,Cricetidae,Rodentia
+74ZGT,SPECIES,"Oryzomys capito (Olfers, 1818)",Hylaeamys megacephalus,Hylaeamys,Cricetidae,Rodentia
+5FZZR,SUBSPECIES,"Bradypus variegatus variegatus Schinz, 1825",Bradypus variegatus,Bradypus,Bradypodidae,Pilosa
+6K52D,SPECIES,"Furipterus horrens (F.Cuvier, 1828)",Furipterus horrens,Furipterus,Furipteridae,Chiroptera
+5FZZL,SUBSPECIES,"Bradypus variegatus brasiliensis Blainville, 1840",Bradypus variegatus,Bradypus,Bradypodidae,Pilosa
+5FJ8D,SUBSPECIES,"Alouatta guariba clamitans Cabrera, 1940",Alouatta guariba,Alouatta,Atelidae,Primates
+58VMJ,SPECIES,"Trinomys paratus (Moojen, 1948)",Trinomys paratus,Trinomys,Echimyidae,Rodentia
+4G4WJ,SPECIES,"Philander opossum (Linnaeus, 1758)",Philander opossum,Philander,Didelphidae,Didelphimorphia
+MCV3G,SUBSPECIES,"Callithrix jacchus penicillata (Hershkovitz, 1977)",Callithrix penicillata,Callithrix,Callitrichidae,Primates
+7KSFF,SUBSPECIES,"Tamandua tetradactyla tetradactyla (Linnaeus, 1758)",Tamandua tetradactyla,Tamandua,Myrmecophagidae,Pilosa
+M2SR7,SPECIES,"Cabassous squamicaudis (Lund, 1845)",Cabassous unicinctus,Cabassous,Chlamyphoridae,Cingulata
+4Z2Z,GENUS,"Hsunycteris Parlos, Timm, Swier, Zeballos & Baker, 2014",,Hsunycteris,Phyllostomidae,Chiroptera
+RY7P,SPECIES,"Cavia fulgida Wagler, 1831",Cavia fulgida,Cavia,Caviidae,Rodentia
+7D4XT,SPECIES,"Trinomys iheringi (Thomas, 1911)",Trinomys iheringi,Trinomys,Echimyidae,Rodentia
+QV4YJ,GENUS,"Metachirus Burmeister, 1854",Metachirus myosuros,Metachirus,Didelphidae,Didelphimorphia
+C5QB,SUBSPECIES,"Alouatta fusca clamitans Cabrera, 1940",Alouatta guariba,Alouatta,Atelidae,Primates
+5GC65,SUBSPECIES,"Cerdocyon thous azarae (Wied-Neuwied, 1824)",Cerdocyon thous,Cerdocyon,Canidae,Carnivora
+8563L,SUBSPECIES,"Sturnira lilium lilium (E.Geoffroy, 1810)",Sturnira lilium,Sturnira,Phyllostomidae,Chiroptera
+3NDGN,SPECIES,"Hylaeamys laticeps (Lund, 1840)",Hylaeamys laticeps,Hylaeamys,Cricetidae,Rodentia
+5XT73,SPECIES,"Chironectes minimus (Zimmermann, 1780)",Chironectes minimus,Chironectes,Didelphidae,Didelphimorphia
+4H7XN,SPECIES,"Phyllomys lamarum (Thomas, 1916)",Phyllomys lamarum,Phyllomys,Echimyidae,Rodentia
+BOLD.AAH2945,GENUS,"Cerradomys Weksler, Percequillo & Voss, 2006",Cerradomys subflavus,Cerradomys,Cricetidae,Rodentia
+697NS,SPECIES,"Callithrix jacchus (Linnaeus, 1758)",Callithrix jacchus,Callithrix,Callitrichidae,Primates
+4H7XP,SPECIES,"Phyllomys lundi Leite, 2003",Phyllomys lundi,Phyllomys,Echimyidae,Rodentia
+4H7XQ,SPECIES,"Phyllomys mantiqueirensis Leite, 2003",Phyllomys mantiqueirensis,Phyllomys,Echimyidae,Rodentia
+3QS79,SPECIES,"Juliomys rimofrons Oliveira & Bonvicino, 2002",Juliomys rimofrons,Juliomys,Cricetidae,Rodentia
+TY9KM,GENUS,"Vampyrops Peters, 1865",,Platyrrhinus,Phyllostomidae,Chiroptera
+5384B,SPECIES,"Sturnira tildae de la Torre, 1959",Sturnira tildae,Sturnira,Phyllostomidae,Chiroptera
+DNBY2,SPECIES,Vampyrops lineatus,Platyrrhinus lineatus,Platyrrhinus,Phyllostomidae,Chiroptera
+684CY,SPECIES,"Artibeus jamaicensis Leach, 1821",Artibeus jamaicensis,Artibeus,Phyllostomidae,Chiroptera
+35WKD,SPECIES,"Didelphis marsupialis Linnaeus, 1758",Didelphis marsupialis,Didelphis,Didelphidae,Didelphimorphia
+624PH,FAMILY,Muridae,,,Muridae,Rodentia
+C5QM,SPECIES,"Alouatta seniculus (Linnaeus, 1766)",Alouatta seniculus,Alouatta,Atelidae,Primates
+BOLD.AAC1823,UNRANKED,BOLD:AAC1823,Marmosa paraguayana,Marmosa,Didelphidae,Didelphimorphia
+BOLD.AAD5805,UNRANKED,BOLD:AAD5805,Gracilinanus microtarsus,Gracilinanus,Didelphidae,Didelphimorphia
+BOLD.AAD4772,UNRANKED,BOLD:AAD4772,Caluromys philander,Caluromys,Didelphidae,Didelphimorphia
+BOLD.AAJ0103,UNRANKED,BOLD:AAJ0103,Chironectes minimus,Chironectes,Didelphidae,Didelphimorphia
+BOLD.ABY5745,UNRANKED,BOLD:ABY5745,Didelphis aurita,Didelphis,Didelphidae,Didelphimorphia
+BOLD.AAB9491,UNRANKED,BOLD:AAB9491,Metachirus nudicaudatus,Metachirus,Didelphidae,Didelphimorphia
+BOLD.ABY4411,UNRANKED,BOLD:ABY4411,Marmosops incanus,Marmosops,Didelphidae,Didelphimorphia
+BOLD.AAD2963,UNRANKED,BOLD:AAD2963,Marmosops incanus,Marmosops,Didelphidae,Didelphimorphia
+BOLD.ACG0966,GENUS,"Micoureus Lesson, 1842",Marmosa paraguayana,Marmosa,Didelphidae,Didelphimorphia
+BOLD.AAC8132,UNRANKED,BOLD:AAC8132,Philander opossum,Philander,Didelphidae,Didelphimorphia
+BOLD.AAD4362,UNRANKED,BOLD:AAD4362,Monodelphis americana,Monodelphis,Didelphidae,Didelphimorphia
+3QS77,SPECIES,"Juliomys ossitenuis Costa, Pavan, Leite & Fagundes, 2007",Juliomys ossitenuis,Juliomys,Cricetidae,Rodentia
+T4SH,SPECIES,"Cerradomys vivoi Percequillo, Hingst-Zaher & Bonvicino, 2008",Cerradomys vivoi,Cerradomys,Cricetidae,Rodentia
+KTG5Y,GENUS,"Philander Brisson, 1762",Philander quica,Philander,Didelphidae,Didelphimorphia
+6XK7V,SPECIES,"Sapajus robustus (Kuhl, 1820)",Sapajus robustus,Sapajus,Cebidae,Primates
+874JZ,SUBSPECIES,"Desmodus rotundus rotundus (E.Geoffroy, 1810)",Desmodus rotundus,Desmodus,Phyllostomidae,Chiroptera
+43YJ8,SPECIES,"Molossus rufus E.Geoffroy, 1805",Molossus rufus,Molossus,Molossidae,Chiroptera
+4BG4Q,SPECIES,"Oxymycterus roberti Thomas, 1901",Oxymycterus roberti,Oxymycterus,Cricetidae,Rodentia
+3M8PP,SPECIES,"Holochilus brasiliensis (Desmarest, 1819)",Holochilus brasiliensis,Holochilus,Cricetidae,Rodentia
+53846,SPECIES,"Sturnira parvidens Goldman, 1917",Sturnira parvidens,Sturnira,Phyllostomidae,Chiroptera
+5JT92,SUBSPECIES,"Myotis nigricans nigricans (Schinz, 1821)",Myotis nigricans,Myotis,Vespertilionidae,Chiroptera
+5LDY4,SUBSPECIES,"Tadarida brasiliensis brasiliensis (I.Geoffroy, 1824)",Tadarida brasiliensis,Tadarida,Molossidae,Chiroptera
+5FN2G,SUBSPECIES,"Anoura geoffroyi geoffroyi Gray, 1838",Anoura geoffroyi,Anoura,Phyllostomidae,Chiroptera
+855TX,SUBSPECIES,"Glossophaga soricina soricina (Pallas, 1766)",Glossophaga soricina,Glossophaga,Phyllostomidae,Chiroptera
+456F9,SPECIES,"Myotis keaysi J.A.Allen, 1914",Myotis keaysi,Myotis,Vespertilionidae,Chiroptera
+47KW3,SPECIES,"Noctilio leporinus (Linnaeus, 1758)",Noctilio leporinus,Noctilio,Noctilionidae,Chiroptera
+86XR6,SUBSPECIES,"Phyllostomus hastatus aruma Thomas, 1924",Phyllostomus hastatus,Phyllostomus,Phyllostomidae,Chiroptera
+8LZB2,SUBSPECIES,"Dasypterus ega ega (Gervais, 1856)",Dasypterus ega,Dasypterus,Vespertilionidae,Chiroptera
+5XDMH,SPECIES,"Carollia brevicaudum (Schinz, 1821)",Carollia brevicaudum,Carollia,Phyllostomidae,Chiroptera
+7JQM6,SUBSPECIES,"Eptesicus brasiliensis brasiliensis (Desmarest, 1819)",Eptesicus brasiliensis,Eptesicus,Vespertilionidae,Chiroptera
+7KB4V,SUBSPECIES,"Mazama americana rufa (Illiger, 1815)",Mazama americana,Mazama,Cervidae,Artiodactyla
+5LKPH,SUBSPECIES,"Trachops cirrhosus cirrhosus (Spix, 1823)",Trachops cirrhosus,Trachops,Phyllostomidae,Chiroptera
+VBYDB,SUBSPECIES,Rattus rattus rattus,Rattus tanezumi,Rattus,Muridae,Rodentia
+5JS4C,SUBSPECIES,"Mus musculus domesticus Schwarz & Schwarz, 1943",Mus musculus,Mus,Muridae,Rodentia
+7KKWM,SUBSPECIES,"Phyllostomus hastatus hastatus (Pallas, 1767)",Phyllostomus hastatus,Phyllostomus,Phyllostomidae,Chiroptera
+7K3T5,SUBSPECIES,"Eumops perotis perotis (Schinz, 1821)",Eumops perotis,Eumops,Molossidae,Chiroptera
+5H5DZ,SUBSPECIES,"Eptesicus diminutus diminutus Osgood, 1915",Eptesicus diminutus,Eptesicus,Vespertilionidae,Chiroptera
+6FZ59,SPECIES,"Eptesicus furinalis (d'Orbigny, 1847)",Eptesicus furinalis,Eptesicus,Vespertilionidae,Chiroptera
+7JGK8,SUBSPECIES,"Cavia aperea pamparum (Thomas, 1901)",Cavia aperea,Cavia,Caviidae,Rodentia
+5LCVK,SUBSPECIES,"Sylvilagus brasiliensis minensis Thomas, 1901",Sylvilagus brasiliensis,Sylvilagus,Leporidae,Lagomorpha

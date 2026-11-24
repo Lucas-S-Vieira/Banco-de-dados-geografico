@@ -1,0 +1,6 @@
+== Unidades de conservação ==
+  linhas gravadas: 190  {'ESTADUAL': 95, 'corrigida_make_valid': 1, 'FEDERAL': 95}
+== Rodovias ==
+  linhas gravadas: 3234 em 2 arquivo(s)  {'lidas': 3444, 'descartada_sem_atributos': 210}
+== Ocorrências de mamíferos (GBIF) ==
+  ocorrências: 13312  taxa distintos: 414  {'lidas': 13655, 'gravadas': 13312, 'descartada_incerteza_alta': 324, 'descartada_fora_de_mg': 17, 'descartada_fossil': 2}

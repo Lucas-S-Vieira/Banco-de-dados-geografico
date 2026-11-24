@@ -1,0 +1,10 @@
+sigla,nome,grupo
+ESEC,Estação Ecológica,PROTECAO_INTEGRAL
+REBIO,Reserva Biológica,PROTECAO_INTEGRAL
+PAR,Parque,PROTECAO_INTEGRAL
+MONA,Monumento Natural,PROTECAO_INTEGRAL
+RVS,Refúgio de Vida Silvestre,PROTECAO_INTEGRAL
+APA,Área de Proteção Ambiental,USO_SUSTENTAVEL
+FLO,Floresta,USO_SUSTENTAVEL
+RDS,Reserva de Desenvolvimento Sustentável,USO_SUSTENTAVEL
+RPPN,Reserva Particular do Patrimônio Natural,USO_SUSTENTAVEL

@@ -1,0 +1,16 @@
+digraph DER {
+  rankdir=LR; node [shape=plain, fontname="Helvetica", fontsize=10]; edge [fontsize=9, fontname="Helvetica"];
+  categoria_uc [label=<<table border="1" cellborder="0" cellspacing="0" bgcolor="#eef3fa"><tr><td bgcolor="#1f3864"><font color="white"><b>categoria_uc</b></font></td></tr><tr><td align="left"><u>cod_categoria</u> PK</td></tr><tr><td align="left">nome, grupo, cat_iucn</td></tr></table>>];
+  superficie_rodovia [label=<<table border="1" cellborder="0" cellspacing="0" bgcolor="#eef3fa"><tr><td bgcolor="#1f3864"><font color="white"><b>superficie_rodovia</b></font></td></tr><tr><td align="left"><u>cod_superficie</u> PK</td></tr><tr><td align="left">descricao</td></tr></table>>];
+  taxon [label=<<table border="1" cellborder="0" cellspacing="0" bgcolor="#eef3fa"><tr><td bgcolor="#1f3864"><font color="white"><b>taxon</b></font></td></tr><tr><td align="left"><u>taxon_key</u> PK</td></tr><tr><td align="left">nivel_taxonomico, nome_cientifico,<br align="left"/>especie, genero, familia, ordem</td></tr></table>>];
+  unidade_conservacao [label=<<table border="1" cellborder="0" cellspacing="0" bgcolor="#e8f5e9"><tr><td bgcolor="#2e7d32"><font color="white"><b>unidade_conservacao</b></font></td></tr><tr><td align="left"><u>id_uc</u> PK</td></tr><tr><td align="left">cod_categoria FK<br align="left"/>nome, esfera, id_origem, cd_cnuc,<br align="left"/>ato_legal, bioma, municipios,<br align="left"/>area_oficial_ha, area_ha</td></tr><tr><td align="left"><b>geom MultiPolygon 4674</b></td></tr></table>>];
+  rodovia [label=<<table border="1" cellborder="0" cellspacing="0" bgcolor="#fff3e0"><tr><td bgcolor="#e65100"><font color="white"><b>rodovia</b></font></td></tr><tr><td align="left"><u>id_trecho</u> PK</td></tr><tr><td align="left">cod_superficie FK<br align="left"/>codigo_rod, codigo_snv, tipo_trecho,<br align="left"/>jurisdicao, uf, local_inicio, local_fim,<br align="left"/>km_inicio, km_fim, extensao_km,<br align="left"/>extensao_geom_km, vigencia, referencia</td></tr><tr><td align="left"><b>geom MultiLineString 4674</b></td></tr></table>>];
+  ocorrencia_mamifero [label=<<table border="1" cellborder="0" cellspacing="0" bgcolor="#fce4ec"><tr><td bgcolor="#ad1457"><font color="white"><b>ocorrencia_mamifero</b></font></td></tr><tr><td align="left"><u>gbif_id</u> PK</td></tr><tr><td align="left">taxon_key FK, id_uc FK<br align="left"/>dataset_key, instituicao, colecao,<br align="left"/>tipo_registro, data_evento, ano,<br align="left"/>n_individuos, incerteza_m, localidade,<br align="left"/>licenca, ocorrencia_ref</td></tr><tr><td align="left"><b>geom Point 4674</b></td></tr></table>>];
+  rodovia_uc [label=<<table border="1" cellborder="0" cellspacing="0" bgcolor="#f3e5f5"><tr><td bgcolor="#6a1b9a"><font color="white"><b>rodovia_uc</b></font></td></tr><tr><td align="left"><u>id_trecho</u> PK, FK</td></tr><tr><td align="left"><u>id_uc</u> PK, FK</td></tr><tr><td align="left">extensao_km</td></tr></table>>];
+  categoria_uc -> unidade_conservacao [label="1:N"];
+  superficie_rodovia -> rodovia [label="1:N"];
+  taxon -> ocorrencia_mamifero [label="1:N"];
+  unidade_conservacao -> ocorrencia_mamifero [label="1:N (ST_Within)"];
+  rodovia -> rodovia_uc [label="1:N (ST_Intersects)"];
+  unidade_conservacao -> rodovia_uc [label="1:N (ST_Intersects)"];
+}
